@@ -10,7 +10,15 @@
 # print(sum_to(6))
 
 # Challenge 2
-
+def largest(list1):
+  max = list1[0]
+  for x in list1:
+    if x > max:
+      max = x
+  return max
+  
+print(largest([1, 2, 3, 4, 0]))
+print(largest([10, 4, 2, 231, 91, 54]))
 
 # Challenge 3
 
